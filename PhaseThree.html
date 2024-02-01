@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase Three</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gammal Tech</h1>
+    </header>
+
+    <main>
+        <div>
+            <h1>Phase Three</h1>
+            <!-- Question 1 -->
+            <div id="question1" class="question">
+                <p>In the opposite figure from certain programming language answer the following questions.</p>
+                <img src="download.jpg" alt="Image 1">
+                <h2>Question 1:</h2>
+                <p>Logical error in the shown image will be?</p>
+                <input type="radio" name="answer1" value="paris"> ; <br>
+                <input type="radio" name="answer1" value="london"> == <br>
+                <input type="radio" name="answer1" value="berlin"> () <br>
+                <br>
+                <button onclick="nextQuestion2('question2')">Next</button>
+            </div>
+            <!-- Question 2 -->
+            <div id="question2" class="question" style="display: none;">
+                <p>Question 2.</p>
+                <img src="download.jpg" alt="Image 2">
+                <h2>Question 2:</h2>
+                <p>What is the Logical error in this code?</p>
+                <input type="radio" name="answer2" value="mercury"> choice 1<br>
+                <input type="radio" name="answer2" value="jupiter"> choice 2<br>
+                <input type="radio" name="answer2" value="venus"> choice 3<br>
+                <br>
+                <button onclick="nextQuestion2('question3')">Next</button>
+            </div>
+
+            <!-- Question 3 -->
+            <div id="question3" class="question" style="display: none;">
+                <p>Examine the image below and answer the question.</p>
+                <img src="download.jpg" alt="Image 3">
+                <h2>Question 3:</h2>
+                <p>Question 3</p>
+                <input type="radio" name="answer3" value="tokyo"> ; <br>
+                <input type="radio" name="answer3" value="seoul"> ()<br>
+                <input type="radio" name="answer3" value="beijing"> {}<br>
+                <br>
+                <button onclick="submitExam()">Submit</button>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gammal Tech All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
